@@ -1,14 +1,10 @@
 package medme.pak.backtodolist.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
+import jakarta.persistence.*;
+import lombok.Generated;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -17,33 +13,26 @@ import java.util.Date;
 @Getter
 @Setter
 @NoArgsConstructor
-//@Table(name = "tasks")
+@Table(name = "tasks")
 public class Task {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    @Column(name = "name_task")
     private String nameTask;
 
+    @Column(name = "description_task")
     private String descriptionTask;
 
+    @Enumerated(EnumType.STRING)
     private Status statusTask;
 
+    @Column(name = "date_created_task")
     private String createdTask;
 
+    @Column(name = "date_lasta_update_task")
     private String lastUpdatedTask;
-
-//    public Task(String nameTask, String descriptionTask, Status statusTask) {
-//        this.nameTask = nameTask;
-//        this.descriptionTask = descriptionTask;
-//        this.statusTask = statusTask;
-//
-//        SimpleDateFormat stringDateFormat = new SimpleDateFormat("dd.MM.yyyy hh:mm:ss");
-//        Date currentDate = new Date();
-//        String dateString = stringDateFormat.format(currentDate);
-//        this.createdTask = dateString;
-//        this.lastUpdatedTask = dateString;
-//    }
-
 
     public void setLastUpdatedTask() {
         SimpleDateFormat stringDateFormat = new SimpleDateFormat("dd.MM.yyyy hh:mm:ss");
