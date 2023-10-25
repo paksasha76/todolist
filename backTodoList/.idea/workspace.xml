@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="452b0e05-9236-4e2b-b723-7f320eca3301" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backTodoList/src/main/resources/check.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backTodoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backTodoList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backTodoList/src/main/java/medme/pak/backtodolist/controller/MainPageTaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backTodoList/src/main/java/medme/pak/backtodolist/controller/MainPageTaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backTodoList/src/main/java/medme/pak/backtodolist/model/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/backTodoList/src/main/java/medme/pak/backtodolist/model/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backTodoList/src/main/java/medme/pak/backtodolist/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/backTodoList/src/main/java/medme/pak/backtodolist/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backTodoList/src/main/java/medme/pak/backtodolist/serveces/TaskServce.java" beforeDir="false" afterPath="$PROJECT_DIR$/backTodoList/src/main/java/medme/pak/backtodolist/serveces/TaskServce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backTodoList/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backTodoList/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backTodoList/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backTodoList/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backTodoList/target/classes/medme/pak/backtodolist/controller/MainPageTaskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backTodoList/target/classes/medme/pak/backtodolist/controller/MainPageTaskController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backTodoList/target/classes/medme/pak/backtodolist/model/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/backTodoList/target/classes/medme/pak/backtodolist/model/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backTodoList/target/classes/medme/pak/backtodolist/serveces/TaskServce.class" beforeDir="false" afterPath="$PROJECT_DIR$/backTodoList/target/classes/medme/pak/backtodolist/serveces/TaskServce.class" afterDir="false" />
-    </list>
+    <list default="true" id="452b0e05-9236-4e2b-b723-7f320eca3301" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,14 +19,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2XC4IZhxnWz1x30UnSqyfqE0l8M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,12 +42,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "<unknown>",
+    "git-widget-placeholder": "backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "ecbbf1550ce9649ef0d3345394f6047b",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -86,7 +75,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698119654217</updated>
-      <workItem from="1698119655198" duration="9182000" />
+      <workItem from="1698119655198" duration="10545000" />
+      <workItem from="1698262280619" duration="6721000" />
     </task>
     <servers />
   </component>
@@ -103,16 +93,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/medme/pak/backtodolist/model/Task.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

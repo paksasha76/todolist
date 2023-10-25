@@ -29,6 +29,21 @@ public class MainPageTaskController {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
+    @PatchMapping("")
+    public ResponseEntity<HttpStatus> updateTask(@RequestBody Task task) {
+        HttpStatus status= service.updateTask(task);
+
+        return new ResponseEntity<>(status);
+    }
+
+    @DeleteMapping("/del")
+    public ResponseEntity<HttpStatus> deleteTask(@RequestBody Task task) {
+        HttpStatus status = service.deleteTask(task.getId());
+
+        return new ResponseEntity<>(status);
+    }
+
+
     @GetMapping("create")
     public ResponseEntity<Task> test() {
         Task task;
